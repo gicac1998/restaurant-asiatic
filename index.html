@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Asiatic | Experiență Autentică</title>
+    <title>Restaurant Asiatic | Experiență Futuristă</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header Section -->
     <header class="header">
         <nav class="navbar">
             <div class="logo">
-                <h1>Restaurant Asiatic</h1>
+                <img src="images/logo.svg" alt="Restaurant Asiatic Logo">
+                <h1>Asian Fusion</h1>
             </div>
             <div class="nav-links">
                 <a href="#home">Acasă</a>
@@ -31,9 +33,9 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content" data-aos="fade-up">
-            <h1>Bine ați venit în lumea gastronomiei asiatice</h1>
-            <p>Descoperiți aromele autentice ale bucătăriei asiatice într-un cadru elegant și modern</p>
-            <a href="#menu" class="cta-button">Explorează Meniul</a>
+            <h1>Viitorul Gastronomiei Asiatice</h1>
+            <p>O experiență culinară unică, unde tradiția întâlnește inovația</p>
+            <a href="#menu" class="cta-button">Explorează Meniul <i class="fas fa-chevron-right"></i></a>
         </div>
     </section>
 
@@ -42,21 +44,48 @@
         <h2 class="section-title" data-aos="fade-up">Meniul Nostru</h2>
         <div class="menu-categories">
             <div class="category" data-aos="fade-right">
-                <h3>Bucătărie Chineză</h3>
+                <h3>Bucătărie Fusion</h3>
                 <div class="menu-items">
-                    <!-- Menu items will be added here -->
+                    <div class="menu-item">
+                        <h4>Neon Sushi Roll</h4>
+                        <p>Roll special cu somon, avocado și sosuri luminescente</p>
+                        <span class="price">45 lei</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Digital Dim Sum</h4>
+                        <p>Dumplings cu umplutură specială și sos cyber-picant</p>
+                        <span class="price">35 lei</span>
+                    </div>
                 </div>
             </div>
             <div class="category" data-aos="fade-up">
-                <h3>Bucătărie Japoneză</h3>
+                <h3>Specialități Grid</h3>
                 <div class="menu-items">
-                    <!-- Menu items will be added here -->
+                    <div class="menu-item">
+                        <h4>Quantum Ramen</h4>
+                        <p>Ramen cu supă luminiscentă și ingrediente premium</p>
+                        <span class="price">40 lei</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Cyber Pad Thai</h4>
+                        <p>Pad Thai reinventat cu elemente moderne</p>
+                        <span class="price">38 lei</span>
+                    </div>
                 </div>
             </div>
             <div class="category" data-aos="fade-left">
-                <h3>Bucătărie Thai</h3>
+                <h3>Deserturi Matrix</h3>
                 <div class="menu-items">
-                    <!-- Menu items will be added here -->
+                    <div class="menu-item">
+                        <h4>Mochi Digital</h4>
+                        <p>Mochi cu înveliș strălucitor și umplutură surpriză</p>
+                        <span class="price">25 lei</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Neon Matcha Cake</h4>
+                        <p>Prăjitură cu matcha și efecte vizuale unice</p>
+                        <span class="price">30 lei</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -66,7 +95,7 @@
     <section id="about" class="about-section">
         <div class="about-content" data-aos="fade-up">
             <h2 class="section-title">Despre Noi</h2>
-            <p>Bucătăria noastră aduce pe masa dumneavoastră cele mai autentice arome ale bucătăriei asiatice, într-un cadru modern și elegant. Cu ingrediente proaspete și tehnici tradiționale, vă oferim o experiență culinară deosebită.</p>
+            <p>Bine ați venit în viitorul gastronomiei asiatice. Restaurantul nostru îmbină perfect tradițiile culinare ale Asiei cu elementele futuriste și tehnologia modernă, creând o experiență dining unică. Fiecare fel de mâncare este o călătorie prin timp și spațiu, unde aromele autentice asiatice întâlnesc prezentarea și atmosfera inspirată din universul Tron.</p>
         </div>
     </section>
 
@@ -84,16 +113,21 @@
         <div class="contact-container">
             <div class="contact-info" data-aos="fade-right">
                 <h3>Informații Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Adresa Restaurantului</p>
+                <p><i class="fas fa-map-marker-alt"></i> Strada Viitorului 42, București</p>
                 <p><i class="fas fa-phone"></i> +40 XXX XXX XXX</p>
-                <p><i class="fas fa-envelope"></i> contact@restaurantasiatic.ro</p>
+                <p><i class="fas fa-envelope"></i> contact@asianfusion.ro</p>
+                <div class="program">
+                    <h4>Program:</h4>
+                    <p>Luni - Vineri: 11:00 - 23:00</p>
+                    <p>Sâmbătă - Duminică: 12:00 - 00:00</p>
+                </div>
             </div>
             <div class="contact-form" data-aos="fade-left">
                 <form id="contactForm">
                     <input type="text" placeholder="Numele dvs." required>
                     <input type="email" placeholder="Email" required>
                     <textarea placeholder="Mesajul dvs." required></textarea>
-                    <button type="submit" class="submit-button">Trimite Mesaj</button>
+                    <button type="submit" class="submit-button">Trimite Mesaj <i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
         </div>
@@ -103,8 +137,8 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Restaurant Asiatic</h3>
-                <p>Experiență culinară autentică într-un cadru modern.</p>
+                <h3>Asian Fusion</h3>
+                <p>Experiență culinară futuristă într-un cadru modern.</p>
             </div>
             <div class="footer-section">
                 <h3>Program</h3>
@@ -121,7 +155,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Restaurant Asiatic. Toate drepturile rezervate.</p>
+            <p>&copy; 2024 Asian Fusion. Toate drepturile rezervate.</p>
         </div>
     </footer>
 
